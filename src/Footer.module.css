@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(90deg, #4575EF 0%, #776FD5 100%);
+  color: #fff;
+  text-align: center;
+  padding: 32px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+.socials {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.socials a {
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.2s;
+}
+.socials a:hover {
+  color: #ffd600;
+} 

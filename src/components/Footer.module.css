@@ -1,0 +1,16 @@
+.footer {
+    background: linear-gradient(90deg, #5a6ff0 0%, #a26be5 100%);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
+  
+  .socialIcons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,50 @@
+
+.chartsContainer {
+    padding: 20px 0;
+  }
+  
+  .sectionTitle {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .chartPaper {
+    padding: 28px 24px;
+    border-radius: 22px;
+    box-shadow: 0 6px 24px rgba(69,117,239,0.10);
+    height: 100%;
+    background: #fff;
+    border: none;
+  }
+  
+  .chartTitle {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .chartHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .yearSelector {
+    min-width: 200px;
+  }
+  
+  @media (max-width: 960px) {
+    .chartHeader {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .yearSelector {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  

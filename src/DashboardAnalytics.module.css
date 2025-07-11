@@ -1,0 +1,27 @@
+.centeredLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.noData {
+  text-align: center;
+  color: #888;
+  margin: 32px 0;
+  font-size: 18px;
+}
+
+.analyticsContainer {
+  padding: 24px;
+}
+
+.dashboardTitle {
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.cardTitle {
+  font-weight: 600;
+  margin-bottom: 8px;
+} 

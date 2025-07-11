@@ -1,0 +1,22 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex: 1;
+    background: #f9fafb;
+  }
+  
+  .dashboardContent {
+    flex: 1;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  

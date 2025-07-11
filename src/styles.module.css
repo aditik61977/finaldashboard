@@ -1,0 +1,239 @@
+
+.menuIcon {
+    margin-right: 8px;
+  }
+
+.sidebar {
+  min-width: 260px;
+  max-width: 320px;
+  background: #f7f8fa;
+  border-right: 1px solid #e0e0e0;
+  height: 100vh;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarList {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.sidebarItem {
+  cursor: pointer;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #222;
+  transition: background 0.2s;
+}
+.sidebarItem:hover {
+  background: #f0f4ff;
+}
+
+.sidebarDivider {
+  border-top: 1px solid #e0e4ea;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.filterSection {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.filterLabel {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #222;
+  font-size: 15px;
+}
+
+.filterChips {
+  margin-bottom: 16px;
+}
+
+.filterChip {
+  display: inline-flex;
+  align-items: center;
+  background: #4575EF;
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.mainTitle {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #fff;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 48px;
+  color: #4575EF;
+  letter-spacing: 1px;
+}
+
+.root {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardRow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  min-height: calc(100vh - 80px);
+}
+
+.dashboardContent {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.dashboardPaper {
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background: #fff;
+}
+
+.dashboardTitle {
+  padding: 32px;
+  padding-bottom: 0;
+  font-weight: 800;
+  font-size: 32px;
+  color: #4575EF;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.metricsRow {
+  width: 100%;
+  margin-bottom: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.metricCol {
+  width: 100%;
+}
+
+.metricCard {
+  padding: 16px;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  background: #f7f8fa;
+  border-radius: 8px;
+}
+
+.metricLabel {
+  color: #888;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.metricValue {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222;
+}
+
+.chartsRow {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.chartCol {
+  width: 100%;
+}
+
+.chartCard {
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0;
+  background: #fff;
+}
+
+.chartTitle {
+  padding: 16px;
+  font-weight: 700;
+  color: #222;
+}
+
+.sectionTitle {
+  padding: 32px;
+  padding-bottom: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.companyTablePaper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  background: #fafbfc;
+  box-shadow: 0 4px 24px 0 rgba(69,117,239,0.08);
+  border: none;
+}
+
+.companyTable {
+  min-width: 650px;
+}
+
+.companyTableHeadRow {
+  background: #f5f7fa;
+}
+
+.companyTableHeadCell {
+  font-weight: 700;
+  font-size: 16px;
+  color: #222;
+}
+
+.companyTableRow {
+  height: 56px;
+  font-size: 15px;
+  border-bottom: 1px solid #e0e4ea;
+  transition: background 0.2s;
+}
+.companyTableRow:hover {
+  background: #f0f4ff;
+}
+
+.companyTableCell {
+  font-size: 15px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
